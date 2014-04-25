@@ -1,4 +1,4 @@
-python-para-cientificos
-=======================
+python-for-ccientist
+====================
 
-Capacitación donde se explican diferentes herramientas de Python para trabajar dentro de un entorno científico.
+Un conjuntos de Ipython Notebooks utilizados para introducir a científicos dentro del mundo Python
