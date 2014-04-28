@@ -57,4 +57,5 @@ otros cursos
 .ipynb_checkpoints/
 *~
 
-
+# Vagrant files
+.vagrant/
