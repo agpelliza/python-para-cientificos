@@ -1,0 +1,2 @@
+# Run iPython Notebook in background
+cd /vagrant && ipython notebook --profile=nbserver &

@@ -11,3 +11,11 @@ sudo apt-get install -y ipython-notebook
 
 # Install additional tools for scientific computing
 sudo apt-get install -y python-matplotlib python-scipy python-pandas python-sympy python-nose
+
+# Create Notebook profile
+cd /vagrant
+ipython profile create nbserver
+cp ipython_notebook_config.py /home/vagrant/.ipython/profile_vmserver/ipython_notebook_config.py
+
+# Start Notebook
+sh start_notebook

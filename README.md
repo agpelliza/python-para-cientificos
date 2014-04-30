@@ -25,19 +25,17 @@ You just need to have [Vagrant](http://www.vagrantup.com/) installed and follow 
 
 2. Run Vagrant (This may take a while...)
 
-  `$ vagrant up`
-
-3. Get into Vagrant
-
-  `$ vagrant ssh`
-
-4. Go to the /vagrant directory (inside the ssh shell)
-
-  `vagrant:~$ cd /vagrant`
-
-5. Initialize the notebook
-
-  `vagrant:~$ ipython notebook --ip=0.0.0.0`
+`$ vagrant up`
 
 
-Done!!! You can now access from your browser at http://127.0.0.1:8889
+Done. You can now access from your browser at http://127.0.0.1:8889
+
+Have in mind that halting Vagrant VM will require ether to start Vagrant back with the *--provision* parameter `$vagrant up --provision` or to manually start the notebook.
+
+You can manually start the notebook following this steps (after you run `$ vagrant up`):
+
+- `$ vagrant ssh`
+- `vagrant:~$ ./start_notebook`
+
+
+Note: This proyect runs on iPython Notebook 0.13.x and won't run on 0.12.x
