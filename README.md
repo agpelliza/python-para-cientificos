@@ -1,18 +1,32 @@
 Python para científicos
 ====================
 
-Un conjuntos de Ipython Notebooks utilizados para introducir a científicos dentro del mundo Python
+Un conjunto de IPython Notebooks utilizados para introducir a científicos dentro del mundo Python
+
+Pueden ver una version read-only de estos notebooks en:
+
+* [Python Científico](http://nbviewer.ipython.org/github/hexacta/python-para-cientificos/blob/master/0_python_cientifico.ipynb)
+* [Python básico](http://nbviewer.ipython.org/github/hexacta/python-para-cientificos/blob/master/1_python_basico.ipynb)
+* [Numpy](http://nbviewer.ipython.org/github/hexacta/python-para-cientificos/blob/master/2_numpy.ipynb)
+* [Matplotlib](http://nbviewer.ipython.org/github/hexacta/python-para-cientificos/blob/master/3_matplotlib.ipynb)
 
 ## Vagrant Integration
 
-To try this proyect for your own we provide Vagrant integration.
+To try this project for your own we provide Vagrant integration.
+
 You just need to have [Vagrant](http://www.vagrantup.com/) installed and follow this steps.
 
-Run Vagrant
+1. First clone this project:
+
+  ```
+  git clone https://github.com/hexacta/python-para-cientificos.git
+  cd python-para-cientificos
+  ```
+
+2. Run Vagrant (This may take a while...)
 
 `$ vagrant up`
 
-(This may take a while..)
 
 Done. You can now access from your browser at http://127.0.0.1:8889
 
