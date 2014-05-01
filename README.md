@@ -35,7 +35,7 @@ Have in mind that halting Vagrant VM will require ether to start Vagrant back wi
 You can manually start the notebook following this steps (after you run `$ vagrant up`):
 
 - `$ vagrant ssh`
-- `vagrant:~$ ./start_notebook`
+- `vagrant:~$ sh /vagrant/start_notebook`
 
 
 Note: This proyect runs on iPython Notebook 0.13.x and won't run on 0.12.x
