@@ -38,4 +38,4 @@ You can manually start the notebook following this steps (after you run `$ vagra
 - `vagrant:~$ sh /vagrant/start_notebook`
 
 
-Note: This proyect runs on iPython Notebook 0.13.x and won't run on 0.12.x
+Note: This proyect runs on IPython Notebook 0.13.x and won't run on 0.12.x
